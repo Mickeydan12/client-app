@@ -8,9 +8,9 @@ import AdminDashboard from "./pages/AdminDashboard"
 import AdminSummary from "./pages/AdminSummary"
 import TaskBoard from "./pages/TaskBoard"
 import LeaveBoard from "./pages/LeaveBoard"
-import PayRoll from "./Pages/PayRoll";
-import Settings from "./Pages/Settings";
-import Error from "./Pages/Error";
+import PayRoll from "./pages/PayRoll"
+import Settings from "./pages/Settings"
+import Error from "./pages/Error"
 import Teams from "./Pages/SubPages/Teams";
 import Employees from "./Pages/Employees";
 import EmployeeDashboard from "./pages/employeeDashboard/EmployeeDashboard";
