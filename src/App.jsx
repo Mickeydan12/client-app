@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signin from "./auth/SignIn"
 import Forgetpwd from "./auth/ForgotPwd"
-import CheckEmail from "./Auth/CheckEmail";
-import AdminDashboard from "./Pages/AdminDashboard";
+import Checkemail from "./auth/CheckEmail"
+import AdminDashboard from "./pages/AdminDashboard"
 import AdminSummary from "./Pages/AdminSummary";
 import TaskBoard from "./Pages/TaskBoard";
 import LeaveBoard from "./Pages/LeaveBoard";
@@ -36,7 +36,7 @@ function App() {
         <Routes>
           <Route path="/auth/signin" element={<Signin />} />
           <Route path="/auth/forgotpassword" element={<Forgetpwd />} />
-          <Route path="/auth/checkemail/:resetToken" element={<CheckEmail />} />
+          <Route path="/auth/checkemail/:resetToken" element={<Checkemail />} />
           <Route
             path="/admin-dashboard"
             element={
