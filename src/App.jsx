@@ -19,16 +19,16 @@ import EmployeeLeaveboard from "./pages/employeeDashboard/EmployeeLeaveboard"
 import EmployeeSettings from "./pages/employeeDashboard/EmployeeSettings"
 import EmployeeNewtask from "./pages/employeeDashboard/EmployeeNewtask"
 import EmployeeTaskBoard from "./pages/employeeDashboard/EmployeeTaskBoard"
-import NewTeams from "./Pages/SubPages/NewTeams";
-import Documents from "./Pages/SubPages/Documents";
-import AccountAccess from "./Pages/SubPages/AccountAccess";
-import PersonalInfo from "./Pages/PersonalInfo";
-import Professional from "./Pages/SubPages/Professional";
-import EditTeams from "./Pages/SubPages/EditTeams";
-import NewTask from "./Pages/SubPages/NewTask";
-import LeaveRequest from "./Pages/SubPages/LeaveRequest";
-import AddPayroll from "./Pages/SubPages/AddPayroll";
-import PrivateRoute from "./utils/PrivateRoute";
+import NewTeams from "./pages/SubPages/NewTeams"
+import Documents from "./pages/SubPages/Documents"
+import AccountAccess from "./pages/SubPages/AccountAccess"
+import PersonalInfo from "./pages/PersonalInfo"
+import Professional from "./pages/SubPages/Professional"
+import EditTeams from "./pages/SubPages/EditTeams"
+import NewTask from "./pages/SubPages/NewTask"
+import LeaveRequest from "./pages/SubPages/LeaveRequest"
+import AddPayroll from "./pages/SubPages/AddPayroll"
+import PrivateRoute from "./utils/PrivateRoute"
 function App() {
   return (
     <>
