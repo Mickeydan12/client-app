@@ -1,0 +1,87 @@
+.addtopayrool {
+  background: white;
+  text-align: center;
+}
+
+.addtopayrool-div {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.payrool-div {
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: x-large;
+  text-align: center;
+  color: #4206a3;
+}
+label {
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+  font-weight: bold;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #959595;
+  border-radius: 3px;
+  font-size: 15px;
+}
+select {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #959595;
+}
+.payrol-add {
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: red;
+
+  width: 40%;
+  font-size: 18px;
+}
+.payrol-cancel {
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 15px;
+  border: none;
+  color: aliceblue;
+  background-color: #4206a3;
+  cursor: pointer;
+  width: 40%;
+  font-size: 18px;
+}
+.continue-btn{
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 15px;
+  border: none;
+  color: aliceblue;
+  background: #3439CA;
+  cursor: pointer;
+  width: 60%;
+  font-size: 18px;
+}

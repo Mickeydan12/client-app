@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.forgetpwd {
+    font-family: "poppins" , sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-image: url( "../assets/1881 1.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+ .forgetpwd-wrapper{
+    position: relative;
+    width: 450px;
+    height: 340px;
+    background: white;
+    
+ }
+ .forgetpwd-wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+ }
+ .fp-div-h2{
+    
+   font-size: 27px;
+   font-weight: 650;
+
+ }
+
+ .fp-h1{
+    font-size: 36px;
+    color: #343536;
+
+ }
+ .div-forget-password{
+    margin-top: 50px;
+ }
+ .forgetpwd-h2{
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+text-align: left;
+
+ }
+ .forgetpwd-p{
+    
+font-size: 17px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #878789;
+
+ }
+ .reset-password{
+    width: 100%;
+    height: 36px;
+    background: #3439CA;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color:#FFFFFF;
+    
+    font-weight: 700;
+ }
+ 
+@media (max-width: 765px){
+   .forgetpwd{
+      background: none;
+   }
+}

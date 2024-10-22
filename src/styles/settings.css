@@ -1,0 +1,15 @@
+.settings-width {
+  width: 50%;
+}
+.settings-h1 {
+  color: #0e0a2d;
+
+  display: flex;
+  font-size: 25px;
+}
+.title {
+  color: #0e0a2d;
+  font-size: 20px;
+ width: 800;
+  
+}
