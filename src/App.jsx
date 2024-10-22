@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signin from "./auth/SignIn"
-import ForgotPwd from "./Auth/ForgotPwd";
+import Forgetpwd from "./auth/ForgotPwd"
 import CheckEmail from "./Auth/CheckEmail";
 import AdminDashboard from "./Pages/AdminDashboard";
 import AdminSummary from "./Pages/AdminSummary";
@@ -35,7 +35,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/auth/signin" element={<Signin />} />
-          <Route path="/auth/forgotpassword" element={<ForgotPwd />} />
+          <Route path="/auth/forgotpassword" element={<Forgetpwd />} />
           <Route path="/auth/checkemail/:resetToken" element={<CheckEmail />} />
           <Route
             path="/admin-dashboard"
