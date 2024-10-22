@@ -5,9 +5,9 @@ import Signin from "./auth/SignIn"
 import Forgetpwd from "./auth/ForgotPwd"
 import Checkemail from "./auth/CheckEmail"
 import AdminDashboard from "./pages/AdminDashboard"
-import AdminSummary from "./Pages/AdminSummary";
-import TaskBoard from "./Pages/TaskBoard";
-import LeaveBoard from "./Pages/LeaveBoard";
+import AdminSummary from "./pages/AdminSummary"
+import TaskBoard from "./pages/TaskBoard"
+import LeaveBoard from "./pages/LeaveBoard"
 import PayRoll from "./Pages/PayRoll";
 import Settings from "./Pages/Settings";
 import Error from "./Pages/Error";
